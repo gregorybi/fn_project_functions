@@ -1,0 +1,4 @@
+name: cipher_app
+#config:
+#  cipher: Vigenere #{Caesar, Shift Cipher, Vigenere}
+#  key: foo
