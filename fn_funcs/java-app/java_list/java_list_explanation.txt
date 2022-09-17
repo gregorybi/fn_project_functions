@@ -1,0 +1,8 @@
+Accepts JSON input {"list":[2, 1]}
+and returns {
+  "f_str": "Sorted List is: ",
+  "sorted": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,2 @@
+Accepts JSON input {"str1":"abcd", "str2":"efg"} 
+and returns {"f_str": "Concatanated string is abcdefg", "length": "7"}

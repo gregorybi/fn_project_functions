@@ -1,0 +1,10 @@
+Accepts JSON input {"a1":a1, "n":n, "d":d} 
+and returns n, a message, the nth term and the sum of the n first terms of the aritmetic 
+progression with first term a1 and differnce d in form :
+
+{
+  "n": n,
+  "message": "Nth term and Sum of n terms are:",
+  "a_n": a_n,
+  "sum_of_n_terms": sum_of_n_terms
+}

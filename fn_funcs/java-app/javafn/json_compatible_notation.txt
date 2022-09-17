@@ -1,0 +1,1 @@
+accepts json input of form {"name":"Bob"}

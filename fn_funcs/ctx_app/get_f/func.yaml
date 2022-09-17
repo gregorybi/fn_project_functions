@@ -1,0 +1,12 @@
+schema_version: 20180708
+name: get_f
+version: 0.0.6
+runtime: python
+build_image: fnproject/python:3.9-dev
+run_image: fnproject/python:3.9
+entrypoint: /python/bin/fdk /function/func.py handler
+memory: 256
+triggers:
+- name: get_f
+  type: http
+  source: /get_f

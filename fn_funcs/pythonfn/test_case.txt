@@ -1,0 +1,10 @@
+input:
+{"name":"Susan", "weight":87, "height":1.98}
+
+output:
+{
+  "message": "Hello Susan",
+  "Your bmi is": "22.19",
+  "You are": "Normal"
+}
+

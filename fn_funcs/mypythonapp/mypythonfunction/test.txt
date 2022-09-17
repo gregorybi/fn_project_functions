@@ -1,0 +1,5 @@
+fn_standard:
+echo -n '{"url":"https://media.geeksforgeeks.org/wp-content/uploads/nba.csv"}' | fn invoke mypythonapp mypythonfunction --content-type application/json
+
+fn_sudo:
+echo -n '{"url":"https://media.geeksforgeeks.org/wp-content/uploads/nba.csv"}' | fn invoke mypythonfunction mypythonfunction --content-type application/json
