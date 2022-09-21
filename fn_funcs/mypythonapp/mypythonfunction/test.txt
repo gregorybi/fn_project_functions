@@ -1,3 +1,5 @@
+In order to run use these commands:
+
 fn_standard:
 echo -n '{"url":"https://media.geeksforgeeks.org/wp-content/uploads/nba.csv"}' | fn invoke mypythonapp mypythonfunction --content-type application/json
 
